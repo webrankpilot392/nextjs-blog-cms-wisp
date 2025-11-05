@@ -4,35 +4,24 @@ import { config } from "@/config";
 import { signOgImageUrl } from "@/lib/og-image";
 import Markdown from "react-markdown";
 
-const content = `# About Me
+const content = `# Kıbrıs Gece Kulübü
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/db7abbe3-aa5c-433e-a16d-cbf137d1c9e5.png/public)
+Kıbrıs’ın eğlence ve gece hayatı sektöründe profesyonel hizmet sunan öncü bir ekiptir. Misafirlerimize unutulmaz bir deneyim yaşatmak ve işletmelere kaliteli, güvenilir ve profesyonel katalog bayan desteği sağlamak amacıyla kurulduk.
 
-Hey there! I'm Samantha, a 28-year-old former corporate warrior who decided to ditch the 9-to-5 grind and embark on an adventure of a lifetime. After years of hustling in a high-pressure job, I realized that life is too short to be stuck in an office, staring at spreadsheets all day.
+Hizmet anlayışımız; disiplin, gizlilik, güven ve memnuniyet temelleri üzerine kuruludur. Her biri özenle seçilen katalog bayanlarımız; zarafet, profesyonellik ve saygı çerçevesinde hareket eder. Amacımız, Kıbrıs gece hayatına kalite ve güven kazandırmak, hem işletmelerin hem de misafirlerin beklentilerini en üst düzeyde karşılamaktır.
 
-So I took a leap of faith, quit my cushy job in Singapore, and decided to see the world on my own terms. No more stuffy meetings or rigid schedules – just me, my backpack, and an open road ahead.
+Ekibimiz, sektördeki uzun yıllara dayanan deneyimiyle; kulüpler, oteller ve özel organizasyonlar için özel çözümler sunar. Her detayda mükemmelliği hedefler, iş ortaklarımızla karşılıklı güven ve memnuniyet esasına dayalı bir ilişki kurarız.
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/6b080e65-2329-4a36-ad5c-0a6af8d9aeb1.png/public)
-
-This blog is where I'll be documenting my travels, sharing my experiences, and hopefully inspiring others to follow their wanderlust. From trekking through remote villages to savoring local cuisines, I'm on a mission to immerse myself in different cultures and create memories that will last a lifetime.
-
-But this journey isn't just about checking off destinations from a bucket list. It's about self-discovery, personal growth, and finding the courage to live life on my own terms. I'll be honest and raw, sharing the highs and lows, the moments of pure bliss and the inevitable challenges that come with solo travel.
-
-So join me on this adventure, and let's explore the world together! Who knows, maybe my stories will inspire you to take that leap of faith and pursue your own dreams, whatever they may be.
-
-Let's go on an adventure!
-
-Love,
-
-Samantha`;
+📍 Kıbrıs genelinde faaliyet gösteriyoruz.
+🔒 Tüm hizmetlerimiz yasal sınırlar içinde, gizlilik politikamıza uygun şekilde yürütülmektedir.;
 
 export async function generateMetadata() {
   return {
-    title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
+    title: "Kıbrıs Gece Kulübü",
+    description: "Kıbrıs Gece kulübü bayan katalog ve fiyatları",
     openGraph: {
-      title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
+      title: "Kıbrıs Gece Kulübü",
+      description: "Kıbrıs Gece kulübü bayan katalog ve fiyatları",
       images: [
         signOgImageUrl({
           title: "Samantha",

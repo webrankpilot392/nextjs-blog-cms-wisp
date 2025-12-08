@@ -39,6 +39,8 @@ export const PostContent = ({ content }: { content: string }) => {
       ...defaults.allowedAttributes,
       "*": ["style"],
       iframe: ["src", "allowfullscreen", "style"],
+      a: ["href", "target", "rel"],
+      p: ["align", "style"],
     },
     allowedIframeHostnames: ["www.youtube.com", "www.youtube-nocookie.com"],
   });
